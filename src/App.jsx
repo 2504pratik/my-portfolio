@@ -11,7 +11,6 @@ import {
 
 const App = () => {
   return (
-    <Router>
       <div className="relative z-0">
         <div>
           <Navbar />
@@ -41,7 +40,6 @@ const App = () => {
           <Contact />
         </div>
       </div>
-    </Router>
   );
 };
 
