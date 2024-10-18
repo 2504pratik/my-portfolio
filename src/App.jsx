@@ -1,4 +1,4 @@
-import { HashRouter, Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import {
   About,
   Contact,
