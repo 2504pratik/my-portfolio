@@ -41,11 +41,11 @@ const About = () => {
           href="https://www.iiitdwd.ac.in/" 
           target="_blank" 
           className="font-bold text-taupe hover:underline">IIIT Dharwad</a> pursuing <strong>BTech in CSE</strong>. 
-        Proficient in <strong>Java</strong> and <strong>Spring Boot</strong>, I specialize in <strong>backend development</strong>, 
+        Proficient in <strong>Java Spring Boot</strong>, <strong>Go</strong>, and <strong>NodeJS</strong>, I specialize in <strong>backend development</strong>, 
         creating <strong>robust APIs</strong>, and handling complex workflows. 
         On the mobile side, I have hands-on experience with <strong>Flutter</strong> for <strong>multi-platform applications </strong> 
         and native development using <strong>Kotlin</strong> & <strong>Java</strong>, to deliver seamless user experiences across platforms. 
-        Whether it’s crafting elegant frontend interfaces or architecting backend systems, I enjoy working across the stack to bring ideas to life. 
+        Whether it’s crafting elegant frontend interfaces with <strong>React</strong> or architecting backend systems, I enjoy working across the stack to bring ideas to life. 
         With a passion for <strong>continuous learning</strong> and <strong>innovation</strong>, I aim to develop impactful applications that 
         bridge functionality with user satisfaction.
       </motion.p>

@@ -40,7 +40,7 @@ const ProjectCard = ({
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
-        absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+        absolute lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
             {name}
           </h3>
@@ -75,7 +75,7 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            {/* <button
+            <button
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
@@ -102,7 +102,7 @@ const ProjectCard = ({
                   w-[30px] h-[30px] object-contain"
               />
               LIVE DEMO
-            </button> */}
+            </button>
           </div>
         </>
       )}

@@ -35,16 +35,20 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, name }) => {
   return (
-    <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<Loader />}>
-        <OrbitControls enableZoom={false} position0={0} />
-        <Ball imgUrl={icon} />
-      </Suspense>
-
-      <Preload all />
-    </Canvas>
+    <div className="flex flex-col items-center">
+      <div className="w-full h-28">
+        <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
+          <Suspense fallback={<Loader />}>
+            <OrbitControls enableZoom={false} position0={0} />
+            <Ball imgUrl={icon} />
+          </Suspense>
+          <Preload all />
+        </Canvas>
+      </div>
+      <p className="mt-2 text-sm text-white text-center">{name}</p>
+    </div>
   );
 };
 

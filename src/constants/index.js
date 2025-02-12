@@ -9,7 +9,6 @@ import {
   git,
   typescript,
   jenkins,
-  figma,
   docker,
   firebase,
   medicore,
@@ -18,6 +17,14 @@ import {
   smollan,
   kharcha,
   soulfit,
+  jibber,
+  web,
+  go,
+  spring,
+  javascript,
+  tailwind,
+  react,
+  nodejs
 } from '../assets';
 
 export const navLinks = [
@@ -41,12 +48,12 @@ const services = [
     icon: prototyping,
   },
   {
-    title: 'Spring Boot Developer',
+    title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'Java Developer',
-    icon: java,
+    title: 'Full Stack Web Developer',
+    icon: web,
   },
   {
     title: 'Flutter Developer',
@@ -68,8 +75,32 @@ const technologies = [
     icon: java,
   },
   {
+    name: 'Typescript',
+    icon: typescript,
+  },
+  {
+    name: 'Javascript',
+    icon: javascript,
+  },
+  {
+    name: 'Tailwind',
+    icon: tailwind,
+  },
+  {
+    name: 'ReactJS',
+    icon: react,
+  },
+  {
+    name: 'NodeJS',
+    icon: nodejs,
+  },
+  {
+    name: 'GoLang',
+    icon: go,
+  },
+  {
     name: 'Spring Boot',
-    icon: backend,
+    icon: spring,
   },
   {
     name: 'Mongo DB',
@@ -84,24 +115,16 @@ const technologies = [
     icon: firebase,
   },
   {
-    name: 'Typescript',
-    icon: typescript,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
+    name: 'Docker',
     icon: docker,
   },
   {
     name: 'Jenkins',
     icon: jenkins,
+  },
+  {
+    name: 'Git',
+    icon: git,
   },
 ];
 
@@ -132,28 +155,6 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'Kharcha',
-    description: 'A smart expense tracker app that syncs UPI transactions and lets users manage their finances seamlessly with CRUD features.',
-    tags: [
-      {
-        name: 'java',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'sqlite',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'xml',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: kharcha,
-    repo: 'https://github.com/2504pratik/kharcha',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
     name: 'SoulFit',
     description:
       'A holistic fitness app focusing on both physical and mental well-being, built with Flutter for seamless user experience across platforms, providing tools for a balanced lifestyle.',
@@ -164,8 +165,30 @@ const projects = [
       },
     ],
     image: soulfit,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/2504pratik/soulfit_flutter',
+    demo: 'https://github.com/2504pratik/soulfit_flutter',
+  },
+  {
+    id: 'project-2',
+    name: 'Kharcha',
+    description: 'A smart expense tracker with clean UI and intuitive UX, built with React and Go, providing a seamless experience for managing personal finances.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'go',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: kharcha,
+    repo: 'https://github.com/2504pratik/kharcha-react-go',
+    demo: 'https://kharcha-react-go.vercel.app',
   },
   {
     id: 'project-3',
@@ -173,44 +196,40 @@ const projects = [
     description: 'Empowering seamless healthcare with a microservices-driven platform connecting doctors, patients, and medical stores for efficient medical data management and prescription handling.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'spring boot',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongodb',
         color: 'pink-text-gradient',
       },
     ],
     image: medicore,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/2504pratik/MediCore',
+    demo: 'https://github.com/2504pratik/MediCore',
   },
-  // {
-  //   id: 'project-4',
-  //   name: 'Movie Metro',
-  //   description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: movie,
-  //   repo: 'https://github.com/shaqdeff/Movie-Metro',
-  //   demo: 'https://movie-metro.netlify.app/',
-  // },
+  {
+    id: 'project-4',
+    name: 'Jibber',
+    description: `A UI focused chat-app built with Flutter and Firebase, providing a seamless chatting experience with real-time messaging and user-friendly interface.`,
+    tags: [
+      {
+        name: 'flutter',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: jibber,
+    repo: 'https://github.com/2504pratik/jibber',
+    demo: 'https://github.com/2504pratik/jibber',
+  },
   // {
   //   id: 'project-5',
   //   name: 'Nyeusi Fest Site',

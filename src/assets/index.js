@@ -23,6 +23,12 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import java from './icons/java.png';
+import web from './icons/web.png'
+import frontend from './icons/frontend.png'
+import linkedin from './icons/linkedin.png'
+import x from './icons/x.png'
+import spring from './icons/spring.png'
+import go from './icons/go.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -36,31 +42,21 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
 import mongodb from './tech/mongodb.png';
 import kotlin from './tech/kotlin.png';
 import mysql from './tech/mysql.png';
 import firebase from './tech/firebase.png';
 import jenkins from './tech/jenkins.png';
+import react from './tech/react.png'
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 import iridescece from './company/iridescece.png';
 import gdsc from './company/gdsc.png';
 import smollan from './company/smollan.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
 import medicore from './projects/medicore.png';
 import kharcha from './projects/kharcha.png';
 import soulfit from './projects/soulfit.png';
+import jibber from './projects/jibber.png';
 
 export {
   bwmap,
@@ -93,22 +89,10 @@ export {
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
   iridescece,
   mongodb,
   kotlin,
@@ -120,4 +104,9 @@ export {
   medicore,
   kharcha,
   soulfit,
+  jibber,
+  web,
+  go,
+  spring,
+  react,
 };
